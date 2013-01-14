@@ -7,6 +7,7 @@
 //
 
 #import "TSTAppDelegate.h"
+//#import "TSTViewController.h"
 
 @implementation TSTAppDelegate
 
@@ -22,6 +23,23 @@
     // nuova modifica
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    
+    //TSTViewController *initialViewController = [[TSTViewController alloc] init];
+    //[self.window setRootViewController:initialViewController];
+    
+    
+    // self.viewController = [[TSTViewController alloc] initWithNibName:@"TSTViewController" bundle:nil];
+    // self.window.rootViewController = self.viewController;
+
+    /**
+     // Override point for customization after application launch.
+     if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
+     self.viewController = [[SYKViewController alloc] initWithNibName:@"SYKViewController_iPhone" bundle:nil];
+     } else {
+     self.viewController = [[SYKViewController alloc] initWithNibName:@"SYKViewController_iPad" bundle:nil];
+     }
+     **/
+    
     return YES;
 }
 

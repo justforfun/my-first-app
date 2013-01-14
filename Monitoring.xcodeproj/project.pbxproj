@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3601AFA4169B072F001CAB99 /* monitoringsb.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3601AFA3169B072F001CAB99 /* monitoringsb.storyboard */; };
+		3601AFB1169B08AE001CAB99 /* TSTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3601AFB0169B08AE001CAB99 /* TSTViewController.m */; };
 		36FCEA3D1695857B00241B1E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36FCEA3C1695857B00241B1E /* UIKit.framework */; };
 		36FCEA3F1695857B00241B1E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36FCEA3E1695857B00241B1E /* Foundation.framework */; };
 		36FCEA411695857B00241B1E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36FCEA401695857B00241B1E /* CoreGraphics.framework */; };
@@ -37,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3601AFA3169B072F001CAB99 /* monitoringsb.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = monitoringsb.storyboard; sourceTree = "<group>"; };
+		3601AFAF169B08AE001CAB99 /* TSTViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSTViewController.h; sourceTree = "<group>"; };
+		3601AFB0169B08AE001CAB99 /* TSTViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSTViewController.m; sourceTree = "<group>"; };
 		36FCEA381695857B00241B1E /* Monitoring.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Monitoring.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36FCEA3C1695857B00241B1E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		36FCEA3E1695857B00241B1E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -120,6 +125,9 @@
 		36FCEA441695857B00241B1E /* Monitoring */ = {
 			isa = PBXGroup;
 			children = (
+				3601AFA3169B072F001CAB99 /* monitoringsb.storyboard */,
+				3601AFAF169B08AE001CAB99 /* TSTViewController.h */,
+				3601AFB0169B08AE001CAB99 /* TSTViewController.m */,
 				36FCEA4D1695857B00241B1E /* TSTAppDelegate.h */,
 				36FCEA4E1695857B00241B1E /* TSTAppDelegate.m */,
 				36FCEA561695857B00241B1E /* Monitoring.xcdatamodeld */,
@@ -237,6 +245,7 @@
 				36FCEA511695857B00241B1E /* Default.png in Resources */,
 				36FCEA531695857B00241B1E /* Default@2x.png in Resources */,
 				36FCEA551695857B00241B1E /* Default-568h@2x.png in Resources */,
+				3601AFA4169B072F001CAB99 /* monitoringsb.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +283,7 @@
 				36FCEA4B1695857B00241B1E /* main.m in Sources */,
 				36FCEA4F1695857B00241B1E /* TSTAppDelegate.m in Sources */,
 				36FCEA581695857B00241B1E /* Monitoring.xcdatamodeld in Sources */,
+				3601AFB1169B08AE001CAB99 /* TSTViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,6 +452,7 @@
 				36FCEA731695857C00241B1E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		36FCEA741695857C00241B1E /* Build configuration list for PBXNativeTarget "MonitoringTests" */ = {
 			isa = XCConfigurationList;
@@ -450,6 +461,7 @@
 				36FCEA761695857C00241B1E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
